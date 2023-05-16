@@ -1,0 +1,22 @@
+.gameStoreWrapper{
+    background-color: #2f3031;
+}
+.gameStore {
+    padding-top: 20px;
+    background-color: #2f3031;
+    color: #c96b00;
+    
+  }
+  
+  .gameStore > div:first-child {
+    text-align: left;
+    background-color: #595a5c;
+    margin-right: 20px;
+    border-radius: 14px;
+  }
+  
+  .gameStore > div:last-child {
+    overflow-y: auto;
+    background-color: #404550;
+    border-radius: 14px;
+  }
