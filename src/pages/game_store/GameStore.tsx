@@ -7,18 +7,20 @@ export default function GameStore() {
   return (
     <div className='gameStoreWrapper'>
       <Container>
-        <Row className='gameStore'>
-          <Col lg={3} style={{ height: '90vh' }}>
-            1 block
-          </Col>
-          <Col lg={8} style={{ height: '20vh' }}>
-            2 block
-          </Col>
-        </Row>
-      </Container>
-    
- 
-
+  <Row className='gameStore'>
+    <Col lg={12} style={{ height: '60vh' }}>
+      1 block
+    </Col>
+  </Row>
+  <Row className='gameStore'>
+    <Col lg={12} style={{ height: '20vh' }}>
+      2 block
+    </Col>
+    <Col lg={12} style={{ height: '20vh' }}>
+      3 block
+    </Col>
+  </Row>
+</Container>
     </div>
   )
 }
