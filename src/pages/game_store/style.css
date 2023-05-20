@@ -1,11 +1,11 @@
 .gameStoreWrapper{
     background-color: #2f3031;
 }
+
 .gameStore {
     padding-top: 20px;
     background-color: #2f3031;
     color: #c96b00;
-    
   }
   
   .gameStore > div:first-child {
@@ -17,5 +17,18 @@
   .gameStore > div:last-child {
     overflow-y: auto;
     background-color: #404550;
+    border-radius: 14px;
+  }
+
+  .insideBig{
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .insideSmall1{
+    border-radius: 14px;
+    margin-right: 25px;
+  }
+  .insideSmall{
     border-radius: 14px;
   }
