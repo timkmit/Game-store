@@ -1,0 +1,23 @@
+.carouselContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carouselItem {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carouselImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+  }
+  

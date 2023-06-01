@@ -1,21 +1,41 @@
-.gameStoreWrapper{
-    background-color: #2f3031;
+.gameStoreWrapper {
+  background-color: #2f3031;
 }
+
 .gameStore {
-    padding-top: 20px;
-    background-color: #2f3031;
-    color: #c96b00;
-    
-  }
-  
-  .gameStore > div:first-child {
-    text-align: left;
-    background-color: #595a5c;
-    border-radius: 14px;
-  }
-  
-  .gameStore > div:last-child {
-    overflow-y: auto;
-    background-color: #404550;
-    border-radius: 14px;
-  }
+  padding-top: 20px;
+  background-color: #2f3031;
+  color: #c96b00;
+}
+
+.gameStore > div:first-child {
+  text-align: left;
+  background-color: #595a5c;
+}
+
+.gameStore > div:last-child {
+  overflow-y: auto;
+  background-color: #404550;
+}
+
+.insideBig {
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.insideSmall1 {
+  border-radius: 14px;
+  background-color: #808080;
+  color: #ffffff;
+}
+
+.miniWindow{
+  height: 3rem;
+  background-color: #404550;
+  border-radius: 1rem;
+  margin-left: 12px;
+  margin-right: 12px;
+}
